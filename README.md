@@ -21,5 +21,5 @@ Final_result <- Table %>% filter(date %in% as_date(c("2020-12-18", "2020-11-30",
 
 Final_result <- Final_result %>% mutate(percentage = str_c(round(percentage, 2),"%", sep = " "))
 
-#Edgar Romero f
+#Edgar Romero 
 #25957579
