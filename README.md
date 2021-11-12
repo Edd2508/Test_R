@@ -18,8 +18,8 @@ Final_result <- Table %>% filter(date %in% as_date(c("2020-12-18", "2020-11-30",
    Final_result$percentage[i + 1] <- ((Final_result$associate_stores[i + 1] - Final_result$associate_stores[i])/Final_result$associate_stores[i])*100
  }
 
- 
+
 Final_result <- Final_result %>% mutate(percentage = str_c(round(percentage, 2),"%", sep = " "))
 
-#Edgar Romero
+#Edgar Romero f
 #25957579
